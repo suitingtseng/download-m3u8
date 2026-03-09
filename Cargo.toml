@@ -1,0 +1,13 @@
+[package]
+name = "download-m3u8"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+reqwest = { version = "0.12", features = ["blocking"] }
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+anyhow = "1"
+url = "2"
+tempfile = "3"
